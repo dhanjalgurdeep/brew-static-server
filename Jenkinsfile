@@ -6,6 +6,7 @@ pipeline {
             steps {
                 echo "========Starting the build========"
                 sh "docker --version"
+                sh "docker build --pull --rm -f Dockerfile -t brewstaticserver:${env.BUILD_ID} ."
             }
         }
     }
