@@ -10,7 +10,7 @@ pipeline {
                 echo "========Starting the build========"
                 // sh "/Applications/Docker.app/Contents/Resources/bin/docker build . -t tomcatwebapp:${env.BUILD_ID}"
                 // sh "/Applications/Docker.app/Contents/Resources/bin/docker build --pull --rm -f Dockerfile -t brewstatic ."
-                sh "docker build --pull --rm -f Dockerfile -t brewstaticserver:${env.BUILD_ID} ."
+                sh "/Applications/Docker.app/Contents/Resources/bin/docker build --pull --rm -f Dockerfile -t brewstaticserver:${env.BUILD_ID} ."
             }
             post{
                 always {
