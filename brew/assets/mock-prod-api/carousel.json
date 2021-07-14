@@ -1,0 +1,29 @@
+[
+  {
+    "image": {
+      "path": "http://localhost:8989/brew/assets/images/woman-camera.jpg",
+      "altText": "Woman taking picture with a camera"
+    },
+    "isActive": true,
+    "headingText": "A woman with a camera",
+    "subheadingText": "She is probably taking a picture."
+  },
+  {
+    "image": {
+      "path": "http://localhost:8989/brew/assets/images/spiderweb.jpg",
+      "altText": "A wet spiderweb"
+    },
+    "isActive": false,
+    "headingText": "Down came the rain",
+    "subheadingText": "And washed the spider out."
+  },
+  {
+    "image": {
+      "path": "http://localhost:8989/brew/assets/images/hearthand.jpg",
+      "altText": "Two hands making a hearb"
+    },
+    "isActive": false,
+    "headingText": "Making love",
+    "subheadingText": "With their hands..."
+  }
+]
