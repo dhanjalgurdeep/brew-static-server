@@ -1,9 +1,8 @@
 pipeline {
     agent any
-    // tools{
-    //   jdk 'localJDK'
-    //   maven 'localMaven'
-    // }
+    tools{
+      docker 'default-docker'
+    }
     stages {
         stage ('Build') {
             steps {
